@@ -6,7 +6,7 @@ if not os.path.exists("MicrosoftRewards.txt"):
 
 printing = input("do you want to run this program?: ")
 while printing == "":
-    with open("MicrosoftRewards.txt") as Rewards:
+    with open("MicrosoftRewards.txt") as Rewards: 
         lines = Rewards.readlines()
         totalpoints = lines[0].strip()
         previousadd = list()
@@ -130,3 +130,4 @@ if printing != "":
             
                             
                     
+#yup 6/9/23
